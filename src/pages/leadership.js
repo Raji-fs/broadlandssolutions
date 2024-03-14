@@ -89,7 +89,12 @@ const Leadership = () => {
                     )
                 })}
             </div>
-            <Testimonials />
+            <Testimonials
+                label={`MORE THAN JUST BUSINESS`}
+                heading={`OUR CLIENTS SAY IT BEST`}
+                description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,`}
+                author={`Lorem Ipsum`}
+            />
         </Layout>
     );
   };
