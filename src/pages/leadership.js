@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Banner from '@/components/Banner';
 import Card from '@/components/Card';
+import Testimonials from '@/components/Testimonials';
 
 const Leadership = () => {
     const cardList = [
@@ -73,7 +74,7 @@ const Leadership = () => {
                     <a href="#" className='hover:underline'>Leadership</a>
                 </div>
             </Banner>
-            <div className='container mx-auto mt-10 mb-20 sm:grid grid-cols-3 gap-6'>
+            <div className='container mx-auto mt-10 mb-20 sm:grid grid-cols-2 lg:grid-cols-3 gap-6'>
                 {cardList.map((card, index) => {
                     return(
                         <Card 
@@ -88,6 +89,7 @@ const Leadership = () => {
                     )
                 })}
             </div>
+            <Testimonials />
         </Layout>
     );
   };

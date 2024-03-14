@@ -62,15 +62,15 @@ const Header = () => {
     };
   return (
     <header className="header shadow-md">
-        <div className='relative right-0 w-9/12 ml-auto'>
-            <div className='grid grid-cols-8'>
-                <div></div>
-                <div className='col-span-4 flex items-center justify-end gap-6 bg-linearGradientBlue p-2'>
+        <div className='hidden sm:block relative right-0 w-full lg:w-9/12 ml-auto'>
+            <div className='grid grid-cols-12 lg:grid-cols-10 xl:grid-cols-8'>
+                <div className='hidden lg:block'></div>
+                <div className='col-span-7 lg:col-span-6 xl:col-span-4 flex flex-wrap items-center justify-end sm:gap-6 bg-linearGradientBlue p-2'>
                     <a className='flex items-center gap-1.5' href="mailto:info@BroadlandsSolutions.com"><MdMailOutline />info@BroadlandsSolutions.com</a>
                     <a className='flex items-center gap-1.5' href="tel:(703)6529120"><FaPhone />(703)6529120</a>
                 </div>
-                <div className='col-span-3 bg-linearGradientBlack p-2'>
-                    <div className='social-icons text-secondaryRed text-2xl flex items-center gap-2 pl-16'>
+                <div className='col-span-5 lg:col-span-3 bg-linearGradientBlack p-2'>
+                    <div className='social-icons text-secondaryRed text-2xl flex flex-wrap items-center gap-2 sm:pl-16'>
                         <a href='#' className='hover:text-white' ><TiSocialFacebook /></a>
                         <a href='#' className='hover:text-white text-xl' ><AiOutlineInstagram /></a>
                         <a href='#' className='hover:text-white' ><TiSocialLinkedin /></a>

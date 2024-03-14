@@ -11,7 +11,8 @@ module.exports = {
         primary: "#333333",
         secondary: "#3071bd",
         secondaryRed: "#fb4b40",
-        secondaryBlue:  "#243567"
+        secondaryBlue:  "#243567",
+        gray: "#6f6f6f"
       },
       backgroundImage: {
         linearGradientBlue: "linear-gradient(240deg,#2392d3 90%,#fff 10%)",

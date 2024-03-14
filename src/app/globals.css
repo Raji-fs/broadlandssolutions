@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.teamImg img {
+.card img {
     border-radius: 20px;
     margin-top: 30px;
     border-top-left-radius: 0;
@@ -20,4 +20,25 @@
 .socialIcons a:hover {
     color: #fb4b40;
     border-color: #fb4b40;
+}
+.testimonials:before, .testimonials:after {
+    font-family: sans-serif !important;
+    content: "''";
+    text-align: left;
+    font-size: 150px;
+    font-weight: 500;
+    color: #2392d3;
+    font-style: italic;
+    position: relative;
+
+}
+.testimonials:before {
+    float: left;
+    left: 80px;
+    top: -100px;
+}
+.testimonials:after {
+    float: right;
+    right: 150px;
+    bottom: 100px;
 }
