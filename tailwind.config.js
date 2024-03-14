@@ -14,9 +14,8 @@ module.exports = {
         secondaryBlue:  "#243567"
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        linearGradientBlue: "linear-gradient(240deg,#2392d3 90%,#fff 10%)",
+        linearGradientBlack: "linear-gradient(240deg,#000 90%,#2392d3 10%)"
       },
     },
   },
