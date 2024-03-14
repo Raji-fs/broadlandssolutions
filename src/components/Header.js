@@ -14,6 +14,22 @@ const Header = () => {
                     label: 'Leadership',
                     url: 'leadership',
                 },
+                {
+                    label: 'Why work for us',
+                    url: 'workforus',
+                },
+                {
+                    label: 'Clients',
+                    url: 'clients',
+                },
+                {
+                    label: 'Partners',
+                    url: 'partners',
+                },
+                {
+                    label: 'Capabilities & NAIC Codes',
+                    url: 'capabilities'
+                }
             ]
         },
         {
@@ -73,7 +89,7 @@ const Header = () => {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           </button>
         </div>
-        <div className={`w-screen h-screen overflow-auto fixed top-0 text-right bg-white px-4 py-6 flex flex-col gap-2 transition-all duration-500 ${showMenu ? 'left-0' : 'left-full'}`}>
+        <div className={`md:hidden z-10 w-screen h-screen overflow-auto fixed top-0 text-right bg-white px-4 py-6 flex flex-col gap-2 transition-all duration-500 ${showMenu ? 'left-0' : 'left-full'}`}>
             <button onClick={closeMenu}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6 ml-auto"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>

@@ -22,7 +22,7 @@ const Leadership = () => {
             linkedin: '',
         },
         {
-            image: 'placeholder.jpg',
+            image: 'venu.jpg',
             name: 'Venu Moola',
             role: 'CTO, Proposals & Contracts',
             facebook: '',
@@ -64,7 +64,7 @@ const Leadership = () => {
     ]
     return (
         <Layout>
-            <Banner heading="Leadership" description="">
+            <Banner heading="EXECUTIVES" description="">
                 <div className='flex gap-4 text-xl'>
                     <a href="#" className='hover:underline'>Broadlands Solutions</a>
                     <span className='text-secondaryRed'>{` > `}</span>

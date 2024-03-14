@@ -14,6 +14,7 @@ const Card = ({image, name, role, facebook, email, linkedin}) => {
             <a href={email} class="email" target="_blank"><MdOutlineEmail /></a>
             <a href={linkedin} class="linkedin" target="_blank"><RiLinkedinLine /></a>
         </div>
+        <button className="bg-secondaryRed hover:scale-110 text-white font-bold my-8 py-2 px-4 rounded transition duration-500">ReadMore</button>
     </div>
   );
 };
