@@ -33,7 +33,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-secondaryBlue text-white py-4">
         <div className="container mx-auto">
-          <div className='grid sm:grid-cols-3 gap-20 items-center sm:py-12 py-6 px-16 w-full'>
+          <div className='grid sm:grid-cols-3 gap-20 items-center sm:py-12 py-6 px-16 sm:px-0'>
             <div>
               <img src="/logo.png" alt="logo" className='max-w-72 mb-8' />
               <p className='text-sm'>As an SBA 8(a) Certified, SBA EDWOSB, SBA WOSB, we have been providing end to end solutions on ERP, Cloud, Data, Business Intelligence to Federal, Commercial, and Private clients by combining people, process, and technology for over 30+ years.</p>
