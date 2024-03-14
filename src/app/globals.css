@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.teamImg img {
+    border-radius: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 0;
+    box-shadow: 0 10px 12px #ccc;
+    height: 180px;
+    width: auto;
+}
+.socialIcons a {
+    border: 2px solid #000;
+    padding: 6px;
+    border-radius: 30px;
+    transition: all ease .5s;
+    color: #000;
+}
+.socialIcons a:hover {
+    color: #bd3431;
+    border-color: #bd3431;
+}
