@@ -65,7 +65,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className=''></div>
+        </div>
+        <div className='footer-copyright border-t border-[#514f4f] p-2 pt-6'>
+            <p className='text-center font-light'>© Copyright 2024 <span className='mx-2.5'>|</span> Broadlands Solutions <span className='mx-2.5'>|</span> All Right Reserved</p>
         </div>
     </footer>
   );

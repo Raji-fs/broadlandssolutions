@@ -80,7 +80,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        <nav className="container mx-auto flex items-center justify-between p-4">
+        <nav className="container mx-auto flex items-center justify-between p-4 pt-2">
             <div>
                 <a href="/" className="text-xl font-bold"><img src="/logo.png" alt="logo" className='max-w-72' /></a>
             </div>
